@@ -69,6 +69,8 @@ span{
 }
 .sec-A-content{
     width: 50%;
+    padding-right: 60px;
+    text-align: justify;
 
 }
 .sec-A-content h1{
@@ -77,6 +79,7 @@ span{
 }
 .sec-A-video{
     width: 50%;
+    margin-left: 30px;
 }
 .sec-A-content p{
     font-size: 20px;
