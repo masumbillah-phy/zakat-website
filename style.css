@@ -11,6 +11,10 @@ main p{
     font-family: 'Space Mono', monospace;
     letter-spacing: -px;
 }
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 /* Header Section Start */
 header{
@@ -26,7 +30,7 @@ header{
 .header-content{
     position: absolute;
     top: 35%;
-    margin-left: 8%;
+    margin-left: 10%;
     color: white;
 }
 .header-content h1{
@@ -65,7 +69,7 @@ span{
 }
 .sec-A-content{
     width: 50%;
-    margin-left:10%;
+
 }
 .sec-A-content h1{
     font-size: 30px;
@@ -73,7 +77,6 @@ span{
 }
 .sec-A-video{
     width: 50%;
-    margin-right:10%;
 }
 .sec-A-content p{
     font-size: 20px;
@@ -88,7 +91,6 @@ span{
 }
 .sec-B-Left{
     width: 50%;
-    margin-left:10%;
 }
 .sec-B-Left img{
     border-radius: 10px;
@@ -97,7 +99,6 @@ span{
 }
 .sec-B-Right{
     width: 50%;
-    margin-right:10%;
 }
 .sec-B-Right h1{
     font-size: 30px;
@@ -114,8 +115,6 @@ span{
     width: 100%;
     text-align: center;
     margin-bottom:5%;
-    margin-left: 10%;
-   
 }
 .sec-C h1{
     font-size: 40px;
@@ -128,13 +127,11 @@ span{
 /* Section D Start here */
 .sec-D{
     width:100%;
-    margin-left: 20%;
-    margin-right: 20%;
     margin-bottom: 8%;
 }
 
 .row-1-left{
-    width: 35%;
+    width: 50%;
     display: flex;
     padding: 30px;
     background-color: rgb(243, 238, 238);
@@ -162,13 +159,12 @@ span{
 .sec-E{
     width: 100%;
     display: flex;
-    margin-bottom: 8%;
-    margin-left: 10%;
     margin-right: 10%;
     justify-content: space-around;
+    margin-bottom: 5%;
 }
 .sec-E img{
-    width: 30%;
+    width: 32%;
     height:450px;
     border-radius: 10px;
 }
